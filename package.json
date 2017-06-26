@@ -1,0 +1,27 @@
+{
+  "name": "express-seed",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node ./bin/www",
+    "dev": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "config": "^1.26.1",
+    "cookie-parser": "~1.4.3",
+    "cross-env": "^5.0.1",
+    "debug": "~2.6.3",
+    "express": "~4.15.2",
+    "hjs": "~0.0.6",
+    "morgan": "~1.8.1",
+    "node-sass-middleware": "0.9.8",
+    "raven": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  }
+}
